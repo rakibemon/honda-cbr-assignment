@@ -1,38 +1,392 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/style.css">
-    <!-- fontAwesome CDN -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
-    <title>Hello, world!</title>
-  </head>
-  <body>
-      <!-- Header part Start here -->
-   <header>
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-   </header>
-   <!-- Header part Ends here -->
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- fontAwesome CDN -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
+  <title>Hello, world!</title>
+</head>
 
-   <!-- Main Part Start here -->
-   <main>
+<body>
+  <!-- Header part star filledt here -->
+  <header>
+    <!-- Nav section star filledt here -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light nav-bg shadow-sm">
+      <div class="container-fluid">
+        <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link text-white active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Shop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Contact</a>
+            </li>
+            <li class="nav-item">
+              <button class="btn text-white button button-login">Login</button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Nav section ends here -->
 
-   </main>
-   <!-- Main Part Ends here -->
+    <!-- Hero section star filledts here -->
+    <section class="container-banner py-5">
+      <div class="container">
+        <div class="row d-flex justify-content-center align-items-center my-5">
+          <div class="col-12 col-md-6">
+            <p class="fw-light">Computer-controlled digital transistorized with electronic advance</p>
+            <h1 class="pb-4 fw-bold">Honda CBR 300R</h1>
+            <p class="fw-light">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+              consequat duis enim
+              velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn button button-purchase text-white" data-bs-toggle="modal"
+              data-bs-target="#exampleModal">
+              Purchase
+            </button>
+  
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title text-dark" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <p class="text-dark">Modal body text goes here.</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6">
+            <figure>
+              <img class="p-5 img-fluid" src="img/header-bike.png" alt="Honda CBR 300R Bike Picture">
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Hero section Ends here -->
+  </header>
+  <!-- Header part Ends here -->
 
-   <!-- Footer Part Start here -->
-   <footer>
+  <!-- Main Part star filledt here -->
+  <main>
+    <!-- Fetured Bikes Section star filledt here -->
+    <section class="container-fetured">
+      <div class="container">
+        <h1 class="text-center fw-bold">Fetured Bikes 2021</h1>
+      <p class="text-center sub-title fw-bold">Best bike collection</p>
+      <hr>
+        <div class="row g-5">
+          <div class="col-12 col-md-4">
+            <figure>
+              <img class="grayScale img-fluid" src="img/feature-bike.jpg" alt="feature bike image">
+            </figure>
+          </div>
+          <div class="col-12 col-md-4">
+            <figure>
+              <img class="img-fluid" src="img/feature-bike.jpg" alt="feature bike image">
+            </figure>
+          </div>
+          <div class="col-12 col-md-4">
+            <figure>
+              <img class="grayScale img-fluid" src="img/feature-bike.jpg" alt="feature bike image">
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Fetured Bikes Section Ends here -->
 
-   </footer>
-   <!-- Footer Part Ends here -->
+    <!-- latest News star filledt here -->
+    <section class="container-latestNews">
+      <div class="container">
+        <h1 class="text-center fw-bold"> Latest News </h1>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card h-100 p-3">
+              <img src="img/bike-1.png" class="card-img-top img-fluid" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Ducati XDIAVEL S-73</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet
+                  faucibus sed id nisi lectus at.</p>
+              </div>
+              <div class="card-footer bg-white border-0">
+                <button class="btn button text-white">Read More</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 p-3">
+              <img src="img/bike-2.png" class="card-img-top img-fluid" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Motorcycles & Scooters</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet
+                  faucibus sed id nisi lectus at.</p>
+              </div>
+              <div class="card-footer bg-white border-0">
+                <button class="btn border-button">Read More</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 p-3">
+              <img src="img/bike-3.png" class="card-img-top img-fluid" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">2021 Honda CBR500R</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet
+                  faucibus sed id nisi lectus at.</p>
+              </div>
+              <div class="card-footer bg-white border-0">
+                <button class="btn border-button">Read More</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- latest News Ends here -->
 
-    <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
-  </body>
+    <!-- Happy Client section star filledt here -->
+    <section class="container-client">
+     <div class="container">
+      <h1 class="text-center"> Happy <span> Client Says </span> </h1>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100 client-card-padding">
+            <figure class="text-center">
+              <img src="img/user-1.png" class="card-img-top img-fluid" alt="...">
+            </figure>
+            <div class="card-body">
+              <p class="card-text">Slate helps you see how many more days you need to work to reach your financial goal
+                for the month and year.</p>
+              <div class="rating d-flex justify-content-center">
+                <i class="fas fa-star filled"></i>
+                <i class="fas fa-star filled"></i>
+                <i class="fas fa-star filled"></i>
+                <i class="fas fa-star filled"></i>
+                <i class="far fa-star star-outline"></i>
+              </div>
+              <p class="client-name fw-bold text-center pt-3">Regina Miles</p>
+              <p class="fw-bold text-center">Banker</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 client-card-padding">
+            <figure class="text-center">
+              <img src="img/user-2.png" class="card-img-top img-fluid" alt="...">
+            </figure>
+            <div class="card-body">
+              <p class="card-text">Slate helps you see how many more days you need to work to reach your financial goal
+                for the month and year.</p>
+              <div class="rating d-flex justify-content-center"">
+                <i class=" fas fa-star filled"></i>
+                <i class="fas fa-star filled"></i>
+                <i class="fas fa-star filled"></i>
+                <i class="fas fa-star filled"></i>
+                <i class="far fa-star star-outline"></i>
+              </div>
+              <p class="client-name fw-bold text-center pt-3">Regina Miles</p>
+              <p class="fw-bold text-center">Banker</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 client-card-padding">
+            <figure class="text-center">
+              <img src="img/user-3.jpg" class="card-img-top rounded-circle user-border img-fluid" alt="...">
+            </figure>
+            <div class="card-body">
+              <p class="card-text text-center">Slate helps you see how many more days you need to work to reach your
+                financial goal for the month and year.</p>
+              <div class="rating d-flex justify-content-center">
+                <i class="fas fa-star filled"></i>
+                <i class="fas fa-star filled"></i>
+                <i class="fas fa-star filled"></i>
+                <i class="fas fa-star filled"></i>
+                <i class="far fa-star star-outline"></i>
+              </div>
+              <p class="client-name fw-bold text-center pt-3">Regina Miles</p>
+              <p class="fw-bold text-center">Banker</p>
+            </div>
+          </div>
+        </div>
+      </div>
+     </div>
+    </section>
+    <!-- Happy Client section Ends here -->
+
+    <!-- FAQ section start here -->
+    <section class="container-faq">
+      <div class="container">
+        <h1 class="text-center">Frequently Asked <span>Questions</span></h1>
+        <div class="row d-flex justify-content-center align-items-center my-3">
+          <div class="col-12 col-md-6">
+            <figure>
+              <img class="img-fluid" src="img/faq.png" alt="FAQ">
+            </figure>
+          </div>
+          <div class="col-12 col-md-6">
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                    aria-expanded="true" aria-controls="collapseOne">
+                    What are the most important things I should know about riding a bike?
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in
+                      the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused
+                      and legally compliant bike rider. </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="accordion my-3" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    How can I tell if my helmet is old and I need a new one?
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse
+                    plugin adds the appropriate classes that we use to style each element. These classes control the
+                    overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this
+                    with custom CSS or overriding our default variables. It's also worth noting that just about any HTML
+                    can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="accordion my-3" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    My bike has been in storage is it safe to ride?
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse
+                    plugin adds the appropriate classes that we use to style each element. These classes control the
+                    overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this
+                    with custom CSS or overriding our default variables. It's also worth noting that just about any HTML
+                    can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    What rules should I follow when riding my bike?
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse
+                    plugin adds the appropriate classes that we use to style each element. These classes control the
+                    overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this
+                    with custom CSS or overriding our default variables. It's also worth noting that just about any HTML
+                    can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- FAQ section ends here -->
+  </main>
+  <!-- Main Part Ends here -->
+
+  <!-- Footer Part star filledt here -->
+  <footer>
+    <div class="container-footer bg-dark py-5">
+      <div class="container">
+        <div class="row ">
+          <div class="col-12 col-md-8 d-flex flex-column justify-content-center">
+            <div class="d-flex">
+              <a href="#">Download Now</a>
+              <a href="#" class="ps-5"> License</a>
+            </div>
+            <div class="row">
+              <div class="col-sm-12 col-md-6">
+                <div class="d-flex w-75 justify-content-md-between mt-3">
+                  <a href="#"> About</a>
+                  <a href="#">Features</a>
+                  <a href="#"> Pricing</a>
+                </div>
+              </div>
+                <div class="col-sm-12 col-md-6">
+                  <div class="d-flex w-75 justify-content-md-between mt-3">
+                  <a href="#"> Careers</a>
+                  <a href="#"> Help</a>
+                  <a href="#"> Privacy Policy</a>
+                </div>
+                </div>
+              </div>
+            <div class="copyright">
+              <p class="text-white pt-4">&copy; 2020 bike. All rights reserved</p>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 d-flex flex-column justify-content-center">
+            <p class="text-white">Get the App</p>
+            <figure class="d-flex flex-column">
+              <a href="#"> <img src="img/app1.png" class="mb-3 img-fluid" alt=""></a>
+              <a href="#"> <img src="img/app2.png" class="img-fluid" alt=""></a>
+            </figure>
+          </div>
+    </div>
+  </div>
+        </div>
+  </footer>
+  <!-- Footer Part Ends here -->
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
 </html>

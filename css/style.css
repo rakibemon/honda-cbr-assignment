@@ -1,0 +1,113 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+/* Common Style*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+a{
+    text-decoration: none;
+}
+.button{
+    background-color: #E76F51;
+}
+span{
+    color: #E76F51;
+}
+/* Header style */
+header{
+    background-color: #264653;
+    color: #fff;
+}
+.nav-bg{
+    background-color: #264653;
+}
+nav ul{
+    display: flex;
+    width: 40%;
+    justify-content: space-evenly;
+}
+.button-login{
+    padding: 10px 24px;
+}
+.button-purchase{
+    padding: 10px 46px;
+}
+/* Fetured Bikes Style */
+.sub-title{
+    color:#E76F51;
+}
+.container-fetured{
+    margin-top: 64px;
+}
+hr{
+    width: 60px;
+    border: 1px solid #E76F51;
+    border-radius: 1px;
+    margin: auto;
+}
+.grayScale{
+    filter: grayscale(100%);
+}
+
+.container-latestNews{
+    margin-top: 165px;
+}
+.border-button{
+    border-color: #E76F51;
+    color: #E76F51;
+}
+
+/* Happy Client style */
+.container-client, .container-faq{
+    margin-top: 160px;
+}
+.client-card-padding{
+    padding: 40px 35px;
+    border-radius: 5px;
+}
+.container-client img{
+    width: 149px;
+    height: 149px;
+}
+.user-border{
+    border: 2px solid #BDBDBD;
+}
+.filled , .star-outline{
+    color: #E76F51;
+}
+.client-name{
+    color: #E76F51;
+}
+/* FAQ style */
+.container-faq img{
+    width: 432px;
+    height: 424px;
+    object-fit: cover;
+}
+/* Footer style */
+.container-footer a{
+    color: #fff;
+}
+.container-footer img{
+    width: 135px;
+    height: 40px;
+}
+/* Media Queries */
+@media screen and (min-width:992px) {
+    .button-login{
+        margin-left: 70px;
+    }
+    nav ul{
+        margin-left: auto;
+    }
+}
