@@ -22,6 +22,10 @@ a{
 span{
     color: #E76F51;
 }
+.border-button{
+    border-color: #E76F51;
+    color: #E76F51;
+}
 /* Header style */
 header{
     background-color: #264653;
@@ -38,15 +42,16 @@ nav ul{
 .button-login{
     padding: 10px 24px;
 }
+/* Hero Style */
 .button-purchase{
     padding: 10px 46px;
 }
 /* Fetured Bikes Style */
-.sub-title{
-    color:#E76F51;
-}
 .container-fetured{
     margin-top: 64px;
+}
+.sub-title{
+    color:#E76F51;
 }
 hr{
     width: 60px;
@@ -57,15 +62,10 @@ hr{
 .grayScale{
     filter: grayscale(100%);
 }
-
+/* Latest News Style */
 .container-latestNews{
     margin-top: 165px;
 }
-.border-button{
-    border-color: #E76F51;
-    color: #E76F51;
-}
-
 /* Happy Client style */
 .container-client, .container-faq{
     margin-top: 160px;
