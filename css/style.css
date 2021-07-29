@@ -16,9 +16,6 @@ body{
 a{
     text-decoration: none;
 }
-a:hover{
-    text-decoration: underline;
-}
 .button{
     background-color: #E76F51;
 }
@@ -95,6 +92,18 @@ hr{
     width: 432px;
     height: 424px;
     object-fit: cover;
+}
+/* Choose style */
+.budget-text a{
+    color: #111;
+}
+.cc a{
+    color: #111; 
+}
+/* compare style */
+.compare-button:hover{
+    background-color: #E76F51;
+    color: #fff;
 }
 /* Footer style */
 footer{
