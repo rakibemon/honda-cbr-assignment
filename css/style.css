@@ -1,5 +1,6 @@
-/* Font */
+/* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap');
 /* Common Style*/
 *{
     box-sizing: border-box;
@@ -14,6 +15,9 @@ body{
 }
 a{
     text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
 }
 .button{
     background-color: #E76F51;
@@ -93,6 +97,9 @@ hr{
     object-fit: cover;
 }
 /* Footer style */
+footer{
+    font-family: 'Manrope', sans-serif;
+}
 .container-footer a{
     color: #fff;
 }
@@ -110,12 +117,32 @@ hr{
         height: 100%;
         overflow-x: hidden;
     }
+    footer .grid{
+        display:flex;
+        flex-wrap: wrap;
+    }
+    footer .grid a{
+        margin-right: 20px;
+    }
+    .copyright{
+        position: relative;
+        top: 190px;
+        left: 65px;
+    }
 }
 @media screen and (min-width:992px) {
     .button-login{
         margin-left: 70px;
     }
+
     nav ul{
         margin-left: auto;
+    }
+    footer .grid{
+        display:flex;
+        flex-wrap: wrap;
+    }
+    footer .grid a{
+        margin-right: 20px;
     }
 }
